@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+* {
+    margin: 1px;
+    padding: 0px;
+}
+
+
+body {
+    
+    background-color: #D0CFBA;
+    min-height: 90vh;
+    min-width: 65vh;
+    
+   
+}
+header {
+    margin-top: 30px;
+    text-align: justify;
+}
+header > p {
+    text-align: right;
+    margin-right: 80px;
+    margin-bottom: 10px;
+}
+
+
+header > nav {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: 1em;
+    padding: 15px;
+    color: black;
+}
+a:hover {
+    background-color: black;
+    color: rgb(220, 210, 210);
+    padding: 15px;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: 0.5ms;
+} 
+
+section {
+   margin-top: 30px;
+
+}
+
+section > .h1 {
+    margin-top: 15px;
+    font-size: 5em;
+    text-align: center;
+}
+
+section > p {
+    margin-top: 35px;
+    text-align: center;
+    font-size: 1.2em;
+}
+section > .bt > a {
+    margin-top: 30px;
+    background-color: black;
+    color: rgb(220, 210, 210);
+    border: solid 1px;
+}
+
+ 
+.bt > a:hover {
+    background-color: rgba(55, 51, 49, 0.652);
+    color: rgb(220, 210, 210);
+    border-radius: 0px;
+    cursor: pointer;
+    transition: 0.5ms;
+}
+footer {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+footer > ul {
+   
+    list-style-position: inside;
+    columns: 3;
+}
+ul > .a1 {
+    margin-left: 120px;
+    list-style-type: '\2B50\00a0\00a0';
+}
+ul > .a2 {
+    list-style-type: '\1F4AB\00a0\00a0';
+}
+ul > .a3 {
+    margin-right: 120px;
+    list-style-type: '\2728\00a0\00a0';
+}
+
+
+div.fotoesq {
+    
+    margin: auto;
+    box-shadow:  -20px -20px 60px #a2a29f,
+    20px 20px 60px #dbdbd7;
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    background-image: url('imagens/direito.jpg');
+    
+    
+}
+
+
+div.fotodir {
+    
+    margin: auto;
+    box-shadow:  20px -20px 60px #a2a29f,
+    -20px 20px 60px #dbdbd7;
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+    position: absolute;
+    left: 70%;
+    top: 30%;
+    background-image:  url('imagens/esquerdo.jpg');
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1265px)
+ {
+    div.fotoesq {
+        width: 250px;
+        height: 150px;    
+        top: 40%;
+        left: 5%;
+        
+}
+
+div.fotodir {
+    width: 250px;
+    height: 150px;
+    top: 40%;
+    left: 70%;
+    
+}
+
+ }
+ @media only screen and (min-width: 500px) and (max-width:1000px) {
+    div.fotodir {
+       
+        width: 0px;
+        height: 0px;
+        top: 20%;
+        
+    }
+    div.fotoesq { 
+        width: 0px;
+        height: 0px;
+        top: 20%;
+    }
+    footer > ul {
+        list-style-position: inside;
+        columns: 1;
+ }
+}
+ @media only screen and (min-width: 300px) and (max-width:700px){
+    header > p {
+        text-align:right;
+        margin-bottom: 20px;
+    }
+ }
+ @media only screen and (min-width: 300px) and (max-width:700px) {
+
+    footer > ul {
+        list-style-position: inside;
+        columns: 1;
+        
+    }
+ }
