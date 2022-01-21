@@ -111,12 +111,8 @@ div.fotoesq {
     top: 30%;
     background-image: url('imagens/direito.jpg');
     
-    
 }
-
-
 div.fotodir {
-    
     margin: auto;
     box-shadow:  20px -20px 60px #a2a29f,
     -20px 20px 60px #dbdbd7;
@@ -138,7 +134,6 @@ div.fotodir {
         left: 5%;
         
 }
-
 div.fotodir {
     width: 250px;
     height: 150px;
@@ -147,7 +142,7 @@ div.fotodir {
     
 }
 
- }
+}
  @media only screen and (min-width: 500px) and (max-width:1000px) {
     div.fotodir {
        
@@ -165,6 +160,7 @@ div.fotodir {
         list-style-position: inside;
         columns: 1;
  }
+
 }
  @media only screen and (min-width: 300px) and (max-width:700px){
     header > p {
@@ -179,4 +175,7 @@ div.fotodir {
         columns: 1;
         
     }
+ }
+ .rd {
+     margin-top: 30px;
  }
